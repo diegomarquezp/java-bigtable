@@ -1,0 +1,25 @@
+This pull request is generated with proto changes between googleapis commit 6f289d775912966eb0cf04bda91e5e355c998d30 (exclusive) and 1834a9697a18c717a216c5919aa4aef737a146d7 (inclusive).
+Qualified commits are:
+[googleapis/googleapis@3597f7d](https://github.com/googleapis/googleapis/commit/3597f7db2191c00b100400991ef96e52d62f5841)
+[googleapis/googleapis@a70aa2c](https://github.com/googleapis/googleapis/commit/a70aa2c04ddad801a518be4f5b67345cf758a6ba)
+[googleapis/googleapis@cbe6201](https://github.com/googleapis/googleapis/commit/cbe62016a4eb24e71186899b79b9a4736f858653)
+BEGIN_COMMIT_OVERRIDE
+BEGIN_NESTED_COMMIT
+chore: update copyright year for auto-generated protos
+
+PiperOrigin-RevId: 631538781
+
+END_NESTED_COMMIT
+BEGIN_NESTED_COMMIT
+feat: publish Automated Backups protos
+
+PiperOrigin-RevId: 620381983
+
+END_NESTED_COMMIT
+BEGIN_NESTED_COMMIT
+feat: add feature flag for client side metrics
+
+PiperOrigin-RevId: 619540187
+
+END_NESTED_COMMIT
+END_COMMIT_OVERRIDE
