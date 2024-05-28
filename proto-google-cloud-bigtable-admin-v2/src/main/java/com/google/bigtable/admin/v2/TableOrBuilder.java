@@ -345,4 +345,48 @@ public interface TableOrBuilder
    * @return The deletionProtection.
    */
   boolean getDeletionProtection();
+
+  /**
+   *
+   *
+   * <pre>
+   * If specified, automated backups are enabled for this table.
+   * Otherwise, automated backups are disabled.
+   * </pre>
+   *
+   * <code>.google.bigtable.admin.v2.Table.AutomatedBackupPolicy automated_backup_policy = 13;
+   * </code>
+   *
+   * @return Whether the automatedBackupPolicy field is set.
+   */
+  boolean hasAutomatedBackupPolicy();
+  /**
+   *
+   *
+   * <pre>
+   * If specified, automated backups are enabled for this table.
+   * Otherwise, automated backups are disabled.
+   * </pre>
+   *
+   * <code>.google.bigtable.admin.v2.Table.AutomatedBackupPolicy automated_backup_policy = 13;
+   * </code>
+   *
+   * @return The automatedBackupPolicy.
+   */
+  com.google.bigtable.admin.v2.Table.AutomatedBackupPolicy getAutomatedBackupPolicy();
+  /**
+   *
+   *
+   * <pre>
+   * If specified, automated backups are enabled for this table.
+   * Otherwise, automated backups are disabled.
+   * </pre>
+   *
+   * <code>.google.bigtable.admin.v2.Table.AutomatedBackupPolicy automated_backup_policy = 13;
+   * </code>
+   */
+  com.google.bigtable.admin.v2.Table.AutomatedBackupPolicyOrBuilder
+      getAutomatedBackupPolicyOrBuilder();
+
+  com.google.bigtable.admin.v2.Table.AutomatedBackupConfigCase getAutomatedBackupConfigCase();
 }
