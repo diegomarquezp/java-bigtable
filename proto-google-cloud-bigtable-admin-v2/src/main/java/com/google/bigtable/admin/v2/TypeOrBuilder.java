@@ -63,6 +63,41 @@ public interface TypeOrBuilder
    *
    *
    * <pre>
+   * String
+   * </pre>
+   *
+   * <code>.google.bigtable.admin.v2.Type.String string_type = 2;</code>
+   *
+   * @return Whether the stringType field is set.
+   */
+  boolean hasStringType();
+  /**
+   *
+   *
+   * <pre>
+   * String
+   * </pre>
+   *
+   * <code>.google.bigtable.admin.v2.Type.String string_type = 2;</code>
+   *
+   * @return The stringType.
+   */
+  com.google.bigtable.admin.v2.Type.String getStringType();
+  /**
+   *
+   *
+   * <pre>
+   * String
+   * </pre>
+   *
+   * <code>.google.bigtable.admin.v2.Type.String string_type = 2;</code>
+   */
+  com.google.bigtable.admin.v2.Type.StringOrBuilder getStringTypeOrBuilder();
+
+  /**
+   *
+   *
+   * <pre>
    * Int64
    * </pre>
    *
